@@ -501,21 +501,21 @@ ol li {
     .cajaclientes:hover{
     background-color: #F26849;
     width: 100%;
-    height: 300px;
-    transition: 0.5s;
+    height: 400px;
+
     
 }.clientes img:hover{
     border-radius: 80px;
     width: 150px;
     height: 150px;
-    transition: 0.5s;
+  
 
 }
     .clientes img{
         border-radius: 80px;
         width: 150px;
         height: 150px;
-        transition: 0.5s;
+   
     }
  
 
