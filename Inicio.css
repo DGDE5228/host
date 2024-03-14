@@ -1,15 +1,16 @@
-html{
-    overflow-x: hidden;
-    width: 100%;
-    height: 100%;
-    background: #0D0D0D;
-}
 @font-face {
     font-family: 'Metropolis';
     src: url('fonts/Metropolis-ExtraBold.otf');
     font-style: bold;
     font-weight: bold;
   }
+  html{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    background: #0D0D0D;
+}
+
 body{
     margin: 0%;
 }
@@ -98,13 +99,7 @@ justify-content: space-evenly;
     font-family: 'Metropolis';
     transition: 0.5s;
 }
-.cajaclientes:hover{
-    background-color: #F26849;
-    width: 100%;
-    height: 500px;
-    transition: 0.5s;
-    
-}
+
 .clientes img{
     border-radius: 80px;
     width: 150px;
@@ -130,7 +125,7 @@ justify-content: space-evenly;
 }
 .ubicacion{
     width:100%;
-    heigth:700px;
+    heighT:700px;
     color: #D9D9D9;
    text-align:center ;
    
@@ -380,8 +375,17 @@ margin-top: 20px;
     background-color: #D9D9D9;
   }
 /*************************CSS RRSPONSIVO**************************/
-@media  (not(hover )max-width: 700px) {
- 
+@media  (max-width: 700px) {
+    #html{
+        overflow-x: hidden;
+        width: 100%;
+        height: 80%;
+        background: #0D0D0D;
+    }
+    
+    body{
+        margin: 0%;
+    }
    
     #logo{
 
@@ -416,7 +420,7 @@ margin-top: 20px;
     
     }
     #menu a{
-        font-size: 12px;
+        font-size: 10px;
         color: #D9D9D9;
         text-decoration: none;
         font-family: 'Metropolis';
@@ -457,44 +461,32 @@ margin-top: 20px;
         text-align: center;
         padding-top: 10px;
         margin: 0;
-        
+        width: 100%;
+        height: 700px;
     }
     .cajaclientes{
-        width: 100%;
-        height: 500px;
-        display: flex;
         justify-content: space-around;
         align-items: center;
-       
-        color: #D9D9D9;
-        font-family: 'Metropolis';
-    
+       margin-top: 25px;
+    width: 100%;
+        height: 600px;
     }
     .clientes img{
         border-radius: 80px;
         width: 150px;
         height: 150px;
-        transition: 0.5s;
     }
     .cajaclientes{
-        width: 100%;
-        height: 700px;
         display: flex;
         flex-direction: column;
-    
-   
-
+      
 }
-   
-
     .ubicacion{
         width: 100%;
         height: 400px;
         display: flex;
         flex-direction: column;
         align-items: center;
-    
-        
     }
     .ubigoogle{
         width: 50%;
@@ -550,7 +542,6 @@ margin-top: 20px;
     font-family: 'Metropolis';
     display: flex;
     justify-content: center;
-    margin-top:10px;
    
 }
 form{
@@ -559,7 +550,7 @@ height: 550px;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin-top: 20px;
+margin-top: 30px;
 }
 
 /***********************PAGE CIENTE 1****************************/
@@ -636,13 +627,6 @@ margin-top: 20px;
     justify-content: center;
 }
 
-.imghuva img{
-    margin-top: 10px;
-    width: 80%;
-    height: 80px;
-    border-radius: 100%;
-
-}
 .slogan{
     margin-top: 25px;
     
