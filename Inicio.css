@@ -164,7 +164,8 @@ footer{
     color: #D9D9D9;
     font-family: 'Metropolis';
     background-color: #D9806C;
- 
+     position:absolute;
+    bottom:0;
     
 }
 .contacto{
