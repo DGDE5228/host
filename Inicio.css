@@ -497,7 +497,7 @@ ol li {
         color: #D9D9D9;
         font-family: 'Metropolis';
     
-    }
+    }  
     .cajaclientes:hover{
     background-color: #F26849;
     width: 100%;
@@ -505,9 +505,9 @@ ol li {
     transition: 0.5s;
     
 }.clientes img:hover{
-    border-radius: 100px;
-    width: 200px;
-    height: 200px;
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
     transition: 0.5s;
 
 }
@@ -517,12 +517,7 @@ ol li {
         height: 150px;
         transition: 0.5s;
     }
-    .cajaclientes{
-        width: 100%;
-        height: 700px;
-        display: flex;
-        flex-direction: column;
-    }
+ 
 
     .ubicacion{
         width: 100%;
