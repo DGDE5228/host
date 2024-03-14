@@ -1,0 +1,733 @@
+html{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    background: #0D0D0D;
+}
+@font-face {
+    font-family: 'Metropolis';
+    src: url('fonts/Metropolis-ExtraBold.otf');
+    font-style: bold;
+    font-weight: bold;
+  }
+body{
+    margin: 0%;
+}
+.contenedor{
+    width: 3000px;
+    max-width: 100%;
+}
+header{
+    display: flex;
+    background-color: #F24130;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+   
+}
+#logo{
+ transition: 0.5s;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin: 2px;
+}
+#logo:hover{
+    transition: 0.5s;
+    width: 75px;
+    height: 75px;
+    border-radius: 80px;
+}
+a {
+text-decoration: none;
+}
+#nameE{
+    font-family: 'Metropolis';
+    color: #D9D9D9;
+    margin-left: 20px;
+    text-decoration: none;
+}
+#space{
+    width: 100%;
+    height: 80px;
+    margin-left: 20px;
+}
+
+
+#menu{
+    width: 100%;
+    height: 80px;
+ display: flex;
+ align-items: center;
+justify-content: space-evenly;
+
+}
+#menu a{
+    font-size: 25px;
+    color: #D9D9D9;
+    text-decoration: none;
+    font-family: 'Metropolis';
+}
+
+#slogan img{
+    width: 100%;
+    height: 554px;
+}
+
+#slogan img:hover{
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.clientes{
+    background-color: #F26849;
+    color: #D9D9D9;
+    font-family: 'Metropolis';
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+    
+}
+.cajaclientes{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    color: #D9D9D9;
+    font-family: 'Metropolis';
+    transition: 0.5s;
+}
+.cajaclientes:hover{
+    background-color: #F26849;
+    width: 100%;
+    height: 500px;
+    transition: 0.5s;
+    
+}
+.clientes img{
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    transition: 0.5s;
+}
+.clientes img:hover{
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+
+}
+.clientes a{
+    text-decoration: none;
+    color: #D9D9D9;
+}
+.clientes a:hover{
+    color: #262626;
+}
+.clientes a:active{
+    color: #D9806C;
+}
+.ubicacion{
+    color: #D9D9D9;
+   text-align:center ;
+    justify-content: center;
+    font-family: 'Metropolis';
+}
+.ubicacion a{
+    color: #D9D9D9;
+
+}
+.ubicacion a:hover{
+    color: #262626;
+    
+}
+
+.ubigoogle{
+    width: 100%;
+    height: 470px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.ubigoogle iframe {
+    border-radius: 10px;
+    border-color: #F24130;
+    margin-right: 20px;
+    
+}
+footer{
+    width: 100%;
+    height: 70px;
+    color: #D9D9D9;
+    font-family: 'Metropolis';
+    background-color: #D9806C;
+ 
+    
+}
+.contacto{
+    display: flex;
+    
+    justify-content: space-around;
+
+}
+.contacto h4:hover{
+    color: #0D0D0D;
+}
+.misvis{
+    width: 100%;
+    height: 500px;
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.mision img{
+    width: 100%;
+    height: 500px ;
+    border-radius: 50px;
+}
+.visio img{
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+
+}
+
+    /******************fomrulario*******************************/
+.formulario{
+    width:100%;
+    height: 500px;
+    background-color: #F26849;
+    color: #D9D9D9;
+    font-family: 'Metropolis';
+    display: flex;
+    justify-content: center;
+    
+   
+}
+form{
+width: 50%;
+height: 400px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+}
+
+/***********************************De aqui hacia arriba es la Pagina de inicio***************************/
+/*********************************pagina ubicacion******************************************************/
+
+.informacion{
+    padding-top: 50px;
+    width: 100%;
+    height: 100px;
+    background-color:#F26849;
+    color: #D9D9D9;
+    font-family: 'Metropolis';
+    display: flex;
+    justify-content: center;
+}
+.informacion img{
+    display: flex;
+    justify-content: center;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 50px;
+    height: 50px;
+}
+
+/***********************PAGE CIENTE 1****************************/
+
+.imgcliente1{
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+   
+    background-color: #262626;
+}
+.imgcliente1 img{
+ margin-top: 50px;
+    width: 25%;
+    height: 300px;
+    border-radius: 100%;
+    
+}
+.informacionc1{
+    width: 100%;
+    height: 100px;
+    background-color: #0D0D0D;
+    color: #D9D9D9;
+    font-family: 'Metropolis';
+    display: flex;
+    justify-content: center;
+}
+
+.imghuva img{
+    margin-top: 10px;
+    width: 80%;
+    height: 80px;
+    border-radius: 100%;
+
+}
+.slogan{
+    margin-top: 25px;
+    
+}
+
+.imghuva h3{
+    margin-top: 30px;
+}
+.imgcliente1{
+    background-color: mediumslateblue;
+  }
+
+
+/***
+.productos{
+    color: #D9D9D9;
+    font-family: 'Metropolis';
+    text-align: center;
+    width: 100%;
+    height: 250px;display: flex;
+    flex-direction: column;
+  align-items: center;
+}
+ol{
+   text-align: justify; 
+}
+ol li {
+    list-style: none;
+    padding-left: 2rem;
+    background-image: url(huva/huvalogo.jpg);
+    background-position: 0 0;
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+    padding-top: 1px;
+    border-radius: 80px;
+  }
+
+ 
+*/
+
+ 
+
+/***********************PAGE CIENTE 2****************************/
+
+.imgcliente2{
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+   
+    background-color: #262626;
+}
+.imgcliente2 img{
+ margin-top: 50px;
+    width: 25%;
+    height: 300px;
+    border-radius: 100%;
+    
+}
+.informacionc2{
+    width: 100%;
+    height: 100px;
+    background-color: #0D0D0D;
+    color: #D9D9D9;
+    font-family: 'Metropolis';
+    display: flex;
+    justify-content: center;
+}
+
+.imghuva img{
+    margin-top: 10px;
+    width: 80%;
+    height: 80px;
+    border-radius: 100%;
+
+}
+.slogan{
+    margin-top: 25px;
+    
+}
+
+.imghuva h3{
+    margin-top: 30px;
+}
+
+.imgcliente2{
+    background-color: #D9D9D9;
+  }
+  /***********************PAGE CIENTE 3****************************/
+
+.imgcliente3{
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+   
+    background-color: #262626;
+}
+.imgcliente3 img{
+ margin-top: 50px;
+    width: 25%;
+    height: 300px;
+    border-radius: 100%;
+    
+}
+.informacionc3{
+    width: 100%;
+    height: 120px;
+    background-color: #0D0D0D;
+    color: #D9D9D9;
+    font-family: 'Metropolis';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.imgPE img{
+    margin-top: 10px;
+   
+    height: 80px;
+    border-radius: 100%;
+
+}
+.slogan3{
+    margin-top: 5px;
+    
+}
+
+.imgPE h3{
+    margin-top: 30px;
+}
+
+.imgcliente3{
+    background-color: #D9D9D9;
+  }
+/*************************CSS RRSPONSIVO**************************/
+@media screen and (max-width: 700px) {
+ 
+   
+    #logo{
+
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin: 2px;
+    }
+    a {
+    text-decoration: none;
+    }
+    #nameE{
+        font-family: 'Metropolis';
+        color: #D9D9D9;
+        margin-left: 20px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    #space{
+        width: 10%;
+        height: 80px;
+       
+    }
+    
+    
+    #menu{
+        width: 100%;
+        height: 80px;
+     display: flex;
+     align-items: center;
+    justify-content: space-evenly;
+    
+    }
+    #menu a{
+        font-size: 12px;
+        color: #D9D9D9;
+        text-decoration: none;
+        font-family: 'Metropolis';
+        margin-right: 3px;
+    }
+    #menu a:last-of-type{
+        margin: 0%;
+    }
+    
+    #slogan img{
+        width: 100%;
+        height: 350px;
+    }
+    .misvis{
+        width: 100%;
+        height: 200px;
+        background-color: #0D0D0D;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .mision img{
+        width: 100%;
+        height: 200px ;
+        border-radius: 20px;
+    }
+    .visio img{
+        width: 100%;
+        height: 200px;
+        border-radius: 20px;
+    
+    }
+    
+    .clientes{
+        background-color: #F26849;
+        color: #D9D9D9;
+        font-family: 'Metropolis';
+        text-align: center;
+        padding-top: 10px;
+        margin: 0;
+        
+    }
+    .cajaclientes{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       
+        color: #D9D9D9;
+        font-family: 'Metropolis';
+    
+    }
+    .clientes img{
+        border-radius: 80px;
+        width: 150px;
+        height: 150px;
+        transition: 0.5s;
+    }
+    .cajaclientes{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ubicacion{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        
+    }
+    .ubigoogle{
+        width: 50%;
+        height: 150px;
+        display: flex;
+    }
+    .ubigoogle iframe{
+        margin: 0;
+    }
+    footer{
+        width: 100%;
+        height: 70px;
+        color: #D9D9D9;
+        font-family: 'Metropolis';
+        background-color: #D9806C;
+        font-size: 10px;
+        
+    }
+    .contacto{
+        display: flex;
+       
+        justify-content: space-around;
+    
+    }
+    /******pagina ubicacion responsive******/
+    .informacion{
+       
+        width: 100%;
+        height: 100px;
+        background-color:#F26849;
+        color: #D9D9D9;
+        font-family: 'Metropolis';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      
+    }
+    .informacion img{
+        display: flex;
+        justify-content: center;
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+        width: 50px;
+        height: 50px;
+    }
+    
+        /******************fomrulario*******************************/
+.formulario{
+    width:100%;
+    height: 100%;
+    background-color: #F26849;
+    color: #D9D9D9;
+    font-family: 'Metropolis';
+    display: flex;
+    justify-content: center;
+    
+   
+}
+form{
+width: 50%;
+height: 400px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+}
+
+/***********************PAGE CIENTE 1****************************/
+
+.imgcliente1{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+   
+    background-color: #262626;
+}
+.imgcliente1 img{
+ margin-top: 50px;
+    width: 50%;
+    height: 200px;
+    border-radius: 100%;
+    
+}
+.informacionc1{
+    width: 100%;
+    height: 100px;
+    background-color: #0D0D0D;
+    color: #D9D9D9;
+    font-family: 'Metropolis';
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.imghuva img{
+    margin-top: 10px;
+    width: 95%;
+    height: 80px;
+    border-radius: 100%;
+
+}
+.slogan{
+    margin-top: 25px;
+    
+}
+
+.imghuva h3{
+    margin-top: 30px;
+}
+.imgcliente1{
+    background-color: mediumslateblue;
+  }
+
+/***********************PAGE CIENTE 2****************************/
+
+.imgcliente2{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+   
+    background-color: #262626;
+}
+.imgcliente2 img{
+ margin-top: 50px;
+    width: 50%;
+    height: 200px;
+    border-radius: 100%;
+    
+}
+.informacionc2{
+    width: 100%;
+    height: 100px;
+    background-color: #0D0D0D;
+    color: #D9D9D9;
+    font-family: 'Metropolis';
+    display: flex;
+    justify-content: center;
+}
+
+.imghuva img{
+    margin-top: 10px;
+    width: 80%;
+    height: 80px;
+    border-radius: 100%;
+
+}
+.slogan{
+    margin-top: 25px;
+    
+}
+
+.imghuva h3{
+    margin-top: 30px;
+}
+
+.imgcliente2{
+    background-color: #D9D9D9;
+  }
+  /***********************PAGE CIENTE 3****************************/
+
+.imgcliente3{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+   
+    background-color: #262626;
+}
+.imgcliente3 img{
+ margin-top: 50px;
+    width: 50%;
+    height: 200px;
+    border-radius: 100%;
+    
+}
+.informacionc3{
+    width: 100%;
+    height: 100px;
+    background-color: #0D0D0D;
+    color: #D9D9D9;
+    font-family: 'Metropolis';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.imgPE img{
+    margin-top: 10px;
+   
+    height: 80px;
+    border-radius: 100%;
+
+}
+.slogan3{
+    margin-top: 5px;
+    
+}
+
+.imgPE h3{
+    margin-top: 30px;
+}
+
+.imgcliente3{
+    background-color: #D9D9D9;
+  }
+
+    
+}
